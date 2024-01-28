@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "types": ["node", "dotenv"],
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./src"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}
